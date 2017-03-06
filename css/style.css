@@ -1,0 +1,150 @@
+body {
+    background-color: #EEEEEE;
+    padding: 50px 0;
+}
+
+hr {
+    background-color: #9E9E9E;
+    height: 2px;
+}
+
+.book-wrapper {
+    height: 510px;
+    position: relative;
+    margin: auto;
+    width: 510px;
+}
+
+.book-wrapper > i {
+    color: #757575;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.book-wrapper > .fa-chevron-right {
+    right: 0;
+}
+
+.book-wrapper > .fa-chevron-left {
+    left: 0;
+}
+
+.book-author {
+    color: #00838F;
+}
+
+.book-viewer {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    height: 450px;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    width: 450px;
+}
+
+.book-wishlist-element {
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-left: 20px solid #E65100;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    margin: 30px 0;
+    padding-left: 5px;
+    position: relative;
+    width: 300px;
+}
+
+.book-wishlist-element p {
+    margin-left: 5px;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    width: 80%;
+}
+
+.book-wishlist-delete {
+    background-color: #757575;
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.book-wishlist-delete > i {
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book-description {
+    max-height: 170px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    overflow-y: scroll;
+}
+
+.book-description::-webkit-scrollbar {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 10px;
+}
+
+.book-description::-webkit-scrollbar-track {
+    background-color: #757575;
+    border-radius: 4px;
+}
+
+.book-description::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+.book-is-wishlist {
+    display: inline;
+    left: 380px !important;
+    top: 7px;
+    visibility: visible !important;
+}
+
+.book-title-container {
+    position: relative;
+}
+
+.book-title-container h4 {
+    display: inline;
+}
+
+.book-rating {
+    color: #607D8B;
+}
+
+.book-price {
+    color: #607D8B;
+}
+
+.book-rating-container p,
+.book-rating-container i {
+    display: inline;
+}
+
+.book-rating-container i {
+    color: #FFEB3B;
+}
+
+#total-price {
+    color: #00838F;
+}

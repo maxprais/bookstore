@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="book-wrapper">
+                <i id="left" class="fa fa-chevron-left fa-2x"></i>
+                <div class="book-viewer">
+                    <div class="book-title-container">
+                        <h4 class="book-title"></h4>
+                        <input type="checkbox" class="book-is-wishlist">
+                    </div>
+                    <hr>
+                    <h4 class="book-author"></h4>
+                    <div class="book-description">
+                        <p></p>
+                    </div>
+                    <div class="book-rating-container">
+                        <p class="book-rating">Rating:
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+                    </div>
+                    <p class="book-price">Price: $<span></span></p>
+                </div>
+                <i id="right" class="fa fa-chevron-right fa-2x"></i>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div id="book-wishlist"></div>
+            <div><h5 id="total-price"></h5></div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
+</html>
